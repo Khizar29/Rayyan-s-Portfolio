@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio - Pawan Kumavat</title>
+
+    <!-- bootstrap css cdn link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- custom css file -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap icon cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+
+    <!-- for adding animation to website we have use AOS library 
+    AOS Library css file cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- jquery cdn link  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- navbar starts -->
+    <nav
+      id="navbar-top"
+      class="navbar navbar-expand-lg navbar-light bg-white sticky-top"
+    >
+      <div class="container-fluid px-5">
+        <a class="navbar-brand fw-bold fs-2" href="#" style="color: #3f396d"
+          >About Me</a
+        >
+        <button
+          class="nav-menu d-md-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <i class="bi bi-menu-button-fill"></i>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav gap-4" style="font-size: 1.1rem">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#work">Work Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Projects">Projects</a>
+            </li>
+          </ul>
+        </div>
+        
+      </div>
+    </nav>
+    <!-- navbar ends here -->
+
+    <!-- home section starts  -->
+    <section class="home pt-5 pb-5" id="home">
+      <div class="row justify-content-evenly align-middle">
+          <div class="col-10 col-md-6 text-center text-md-start content" data-aos="slide-right">
+              <h2>
+                  Hello! I Am <br /><span class="c-orange">Rayyan Usmani</span>
+              </h2>
+              <p class="text-left">
+                  A final-year Mechanical Engineering student with a strong academic 
+                  foundation in core engineering principles and a passion for applying 
+                  knowledge to solve real-world problems. Adept in areas such as CAD design,
+                  thermal systems, material science, manufacturing processes, and robotics. 
+                  Experienced in manufacturing, power generation, and CAD software, with hands-on
+                  experience in designing and building robotic systems. 
+                  Proven ability to work collaboratively in teams and lead projects effectively. 
+              </p>
+              
+              <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+                  <a href="Resume - MRayyanUsmani.pdf" download="Resume">Find More !</a>
+              </button>
+              <a href="" class="link ms-4 d-none">See My Work</a>
+          </div>
+      </div>
+  </section>
+  
+
+    <!-- expertise section starts -->
+    <section class="expertise mt-5 mb-5" id="service">
+      <div class="heading text-center">
+        <h1>Education</h1>
+        <!-- <h3>
+          Provide Wide Range of <br />
+          Digital Services
+        </h3> -->
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-10 col-md-4" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/national-university-logo.png"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>NUST</h4>
+              <h5 class="text-muted" >
+                Bachelors in Mechanical Engineering
+              </h5>
+              <a href="" class="link">2021 - 2025</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/Pheonex-Highbrow.png"
+                class="w-25 img-fluid img "
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>Highbrow College</h4>
+              <h5 class="text-muted" >
+                A Levels
+              </h5>
+              <a href="" class="link">2019 - 2021</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/citys.png"
+                class="w-25 img-fluid img pt-2"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>The City School</h4>
+              <h5 class="text-muted" >
+                O Levels
+              </h5>
+              <a href="" class="link">2017 - 2019</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- expertise section ends here -->
+    <div class="divider"></div>
+
+ <!-- expertise section starts -->
+ <section class="expertise" id="work">
+  <div class="heading text-center pt-5">
+    <h1>Work Experience</h1>
+    <!-- <h3>
+      Provide Wide Range of <br />
+      Digital Services
+    </h3> -->
+  </div>
+  <div class="row justify-content-evenly mt-5">
+    <div class="col-10 col-md-4" data-aos="fade-up">
+      <div class="service-card">
+        <div class="img">
+          <img
+            src="images/apl.png"
+            class="w-25 img-fluid img"
+            alt=""
+          />
+        </div>
+        <div class="content mt-3">
+          <h4>Attock Petroleum Limited</h4>
+          <h5 class="text-muted" >
+            Retail Engineering
+          </h5>
+          <a href="" class="link">July 2024 - Aug 2024</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-10" data-aos="fade-up">
+      <div class="service-card">
+        <div class="img">
+          <img
+            src="images/am4.jpg"
+            class="w-25 img-fluid img pt-1 "
+            alt=""
+          />
+        </div>
+        <div class="content mt-3">
+          <h4>Artistic Milliners</h4>
+          <h5 class="text-muted" >
+            Power Generation
+          </h5>
+          <a href="" class="link">June 2024</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-10" data-aos="fade-up">
+      <div class="service-card">
+        <div class="img">
+          <img
+            src="images/pak_bev_1950_logo.jpg"
+            class="w-25 img-fluid img pt-2"
+            alt=""
+          />
+        </div>
+        <div class="content mt-3">
+          <h4>Pakistan Beverage Limited (Pepsi Co) </h4>
+          <h5 class="text-muted" >
+            Maintenance
+          </h5>
+          <a href="" class="link">June 2023 - July 2023</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- expertise section ends here -->
+
+
+
+    <!-- skill section starts -->
+    <section class="skill mt-5 py-5" id="about">
+      <div class="row justify-content-evenly">
+        <div class="col-10 col-md-5 skill-with-progress" data-aos="slide-right">
+          <div class="row justify-content-evenly">
+            <div class="col-10 col-md-6">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress html-css">
+                  <span class="progress-value html-progress">0%</span>
+                </div>
+                <br />
+                <span class="text">CAD & FEA</span>
+              </div>
+            </div>
+            <div class="col-10 col-md-6 mt-4 mt-md-0">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress javascript">
+                  <span class="progress-value javascript-progress">0%</span>
+                </div>
+                <br />
+                <span class="text">Power Generation</span>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-evenly mt-4">
+            <div class="col-10 col-md-6">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress php">
+                  <span class="progress-value php-progress">0%</span>
+                </div>
+                <br />
+                <span class="text">Maintenance</span>
+              </div>
+            </div>
+            <div class="col-10 col-md-6 mt-4 mt-md-0">
+              <div class="progress-card ms-3  ms-md-0">
+                <div class="circular-progress reactjs">
+                  <span class="progress-value reactjs-progress">0%</span>
+                </div>
+                <br>
+                <span class="text">Robotics</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-10 col-md-5 skill-detail" data-aos="slide-left">
+          <div class="heading mt-5 mt-md-3">
+            <!-- <small>My Skills</small> -->
+            <h3>Turning Ideas into Engineered Solutions with Creativity</h3>
+            <p class="text-muted pt-3" >
+
+            With expertise in CAD and FEA,
+             I specialize in designing and simulating 
+             intricate mechanical systems to meet modern
+              engineering demands. My experience in power
+               generation has enabled me to develop innovative 
+               solutions that enhance energy efficiency and system performance.
+            </p>
+            <p class="text-muted">
+              Skilled in maintenance engineering, I ensure machinery operates 
+              reliably through strategic planning and diagnostics. Additionally,
+               my passion for robotics drives me to design and implement cutting-edge robotic systems,
+               showcasing a blend of precision and innovation in every project I undertake.
+            </p>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- skill section end here -->
+
+    <!-- portfolio section starts here -->
+    <section class="Projects" id="Projects">
+      <div class="heading text-center pt-5">
+        <h1>Projects</h1>
+      </div>
+    
+      <div id="myBtnContainer" class="text-center mt-4">
+        <!-- Optionally add buttons for filtering projects -->
+      </div>
+    
+      <div class="portfolio-body">
+        <div class="row justify-content-evenly px-4">
+          <!-- Project 1 -->
+          <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/Keeogo-North-Western.jpg" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Knee Exoskeleton</h4>
+                <span class="badge bg-secondary badge-pill">Robotics</span>
+                <span class="badge bg-secondary badge-pill">BioMechanics</span>
+                <span class="badge bg-secondary badge-pill mb-2">Rehabilitation</span><br />
+                <a href="#" class="link" data-bs-toggle="modal" data-bs-target="#projectModal1">Details</a>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Project 2 -->
+          <div class="post col-md-4 website all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="https://www.dynamicrep.com/hs-fs/hubfs/hydrogen%20energy%20fuel%20cell.jpeg?width=1500&amp;height=1164&amp;name=hydrogen%20energy%20fuel%20cell.jpeg" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Mathematical Modelling of a SOFC</h4>
+                <span class="badge bg-secondary badge-pill">Renewable Energy</span>
+                <span class="badge bg-secondary badge-pill">Heat Recovery</span>
+                <span class="badge bg-secondary badge-pill mb-2">Simulink</span><br />
+                <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#projectModal2">Details</a>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Project 3 -->
+          <div class="post col-md-4 webapp all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="https://hackster.imgix.net/uploads/attachments/1196198/_yI59w8pKDD.blob?auto=compress%2Cformat&amp;w=900&amp;h=675&amp;fit=min" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Line Following Robot</h4>
+                <span class="badge bg-secondary badge-pill">Robotics</span>
+                <span class="badge bg-secondary badge-pill">Arduino</span>
+                <span class="badge bg-secondary badge-pill mb-2">Automation</span><br />
+                <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#projectModal3">Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Modal 1 -->
+    <div class="modal fade" id="projectModal1" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="projectModalLabel">Knee Exoskeleton</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p><strong>Description:</strong> A Knee Exoskeleton designed to assist individuals with mobility issues.</p>
+            <p><strong>Technologies:</strong> Robotics, BioMechanics, Rehabilitation</p>
+            <p><strong>Details:</strong> This project was focused on designing a wearable exoskeleton to aid in knee movement rehabilitation for patients with knee injuries. The project involved a combination of CAD design and mechanical systems to create a functional prototype.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Modal 2 -->
+    <div class="modal fade" id="projectModal2" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="projectModalLabel">Mathematical Modelling of a SOFC</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p><strong>Description:</strong> This project involves the mathematical modeling of Solid Oxide Fuel Cells (SOFC).</p>
+            <p><strong>Technologies:</strong> Renewable Energy, Heat Recovery, Simulink</p>
+            <p><strong>Details:</strong> The aim was to model and simulate the behavior of SOFCs to predict their efficiency and optimize performance. The project utilized Simulink for simulation and heat recovery models for better energy utilization.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Modal 3 -->
+    <div class="modal fade" id="projectModal3" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="projectModalLabel">Line Following Robot</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p><strong>Description:</strong> A line-following robot designed using Arduino technology.</p>
+            <p><strong>Technologies:</strong> Robotics, Arduino, Automation</p>
+            <p><strong>Details:</strong> This project involved designing and building a robot capable of following a predefined path. The system used sensors and a microcontroller to follow the path autonomously.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- portfolio section ends here -->
+
+      <!-- now we will make back to top button when user click on it it will be redirected to top page  -->
+    <button
+      type="button"
+      class="btn btn-floating btn-lg rounded-pill"
+      id="btn-back-to-top"
+    >
+      <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- footer section starts  -->
+    <footer class="text-center text-muted py-4">
+      <h3 class="text-white pt-4" data-aos="fade-up">M. Rayyan Usmani | Mechanical Engineer</h3>
+      <p class="text-white pt-4" data-aos="fade-up">Phone: +92 3161099273 | Mail: rayyanusmani312@gmail.com</p>
+     
+     
+      <div class="link-group mt-5" data-aos="fade-up">
+        <a href="#home">Home</a>
+        <div class="vr"></div>
+        <a href="#service">Education</a>
+        <div class="vr"></div>
+        <a href="#work">Experience</a>
+        <div class="vr"></div>
+        <a href="#about">Skills</a>
+        <div class="vr"></div>
+        <a href="#Projects">Projects</a>
+        <div class="vr"></div>
+        <!-- <a href="#contact">Contact</a> -->
+      </div>
+      
+      <!-- <div class="social-links mt-5" data-aos="fade-up">
+        <button href="" class="rounded-pill dribble">
+          <i class="bi bi-dribbble"></i>
+        </button>
+        <button href="" class="rounded-pill whatsapp">
+          <i class="bi bi-whatsapp"></i>
+        </button>
+        <button href="" class="rounded-pill behance">
+          <i class="bi bi-behance"></i>
+        </button>
+      </div> -->
+      <hr class="text-muted my-4" />
+
+      <p>Copyright 2024</p>
+    </footer>
+    <!-- footer section ends here -->
+
+      <!-- bootstrap javascript cdn link  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS library javascript link  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      // initializing AOS library
+      AOS.init({
+        duration: 1000,
+        offset: 50,
+      });
+    </script>
+    <!-- custom js file linking -->
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
